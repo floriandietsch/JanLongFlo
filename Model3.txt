@@ -1,6 +1,6 @@
 Model 3 Determine if String is Float
 
-Go though each character and look if character is a number.
+Go through each character and look if character is a number.
 
 Only expections are: 
 
