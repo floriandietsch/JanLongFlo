@@ -1,1 +1,8 @@
 Test 123 Test Test 123 Test.
+
+Now you know all of the normal commands to get you going. 
+You can add files, commit changes to the files you're tracking, 
+and even compare the changes you've made against what's in your repository. 
+Now you might want to do some housekeeping in it. 
+Things such as moving, copying, and even ignoring some files. 
+We'll cover these next.
