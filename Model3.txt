@@ -1,9 +1,0 @@
-Model 3 Determine if String is Float
-
-Go through each character and look if character is a number.
-
-Only expections are: 
-
-+/- at the start.
-Decimal point
-and E exponent at the end.
