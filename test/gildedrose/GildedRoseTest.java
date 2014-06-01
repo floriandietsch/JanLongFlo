@@ -64,6 +64,9 @@ public class GildedRoseTest {
 						{
 						"Backstage: Quality drops to 0 when sellIn = 0","Backstage passes to a TAFKAL80ETC concert",0,20,-1,0
 						},
+						{
+						"Conjured: Quality drop twice as fast","Conjured Item", 5,15,4,13
+						},
 						
 				}));
 		return data;
