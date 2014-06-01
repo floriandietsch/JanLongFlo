@@ -67,6 +67,9 @@ public class GildedRoseTest {
 						{
 						"Conjured: Quality drop twice as fast","Conjured Item", 5,15,4,13
 						},
+						{
+						"Conjured: Quality drops twice as fast when sellIn < 0","Conjured Item",-1,15,-2,11	
+						}
 						
 				}));
 		return data;
