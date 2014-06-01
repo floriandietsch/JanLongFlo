@@ -32,16 +32,22 @@ public class GildedRoseTest {
 						"Quality is never negative | Starts at 0","Elixir of the Mongoose",2,0,1,0	
 						},
 						{
-						"Quality is never negative | Starts from negative","Elixir of the Mongoose",2,-1,1,0	
+						"Quality is never negative | Starts from negative","Elixir of the Mongoose",2,-1,1,0
+						// Invalid creation parameter are not being handled
 						},	
 						{
 						"Sulfuras Test","Sulfuras, Hand of Ragnaros", 0,80,0,80	
 						},
 						{
-						"Aged Brie increases in Quality","Aged Brie",2,0,1,1	
+						"Aged Brie increases in Quality | sellIn is positive","Aged Brie",2,0,1,1	
+						},
+						{
+						"Aged Brie increases in Quality | sellIn is negative","Aged Brie",-1,0,-2,1	
+						//Gets updated in quality twice 
 						},
 						{
 						"Quality of item is never over 50 | Starts at over 50","Magisters Staff",5,560,4,50
+						//Invalid creation parameter does not get corrected by the program.
 						},
 						{
 						"Quality of item is never over 50 | Aged Brie with Quality 49","Aged Brie",5,50,4,50
